@@ -9,6 +9,7 @@ bug-reports: "https://github.com/dbuenzli/fmt/issues"
 license: ["ISC"]
 tags: ["string" "format" "pretty-print" "org:erratique"]
 depends: ["ocaml-ios" {>= "4.08.0"}
+          "opam-installer" {build}
           "ocamlfind" {build}
           "ocamlbuild" {build}
           "topkg" {build & >= "1.0.3"}]

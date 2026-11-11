@@ -20,6 +20,7 @@ doc: "https://erratique.ch/software/tgls/doc/"
 bug-reports: "https://github.com/dbuenzli/tgls/issues"
 depends: [
   "ocaml-ios" {>= "4.08.0"}
+  "opam-installer" {build}
   "ocamlfind" {build}
   "ocamlbuild" {build}
   "topkg" {build & >= "1.0.3"}

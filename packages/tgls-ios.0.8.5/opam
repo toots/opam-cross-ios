@@ -18,6 +18,7 @@ remove: [["ocamlfind" "-toolchain" "ios" "remove" "tgls"]]
 depends: [
   "ocaml"
   "ocaml-ios"
+  "opam-installer" {build}
   "ctypes-ios" {>= "0.4.0"}
   "ocamlfind"
   "ocamlbuild" {build}

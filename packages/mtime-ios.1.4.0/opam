@@ -23,6 +23,7 @@ doc: "https://erratique.ch/software/mtime/doc/"
 bug-reports: "https://github.com/dbuenzli/mtime/issues"
 depends: [
   "ocaml-ios" {>= "4.08.0"}
+  "opam-installer" {build}
   "ocamlfind" {build}
   "ocamlbuild" {build & != "0.9.0"}
   "topkg" {build & >= "1.0.3"}

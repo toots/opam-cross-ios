@@ -25,6 +25,7 @@ doc: "https://erratique.ch/software/cmdliner/doc"
 bug-reports: "https://github.com/dbuenzli/cmdliner/issues"
 depends: [
   "ocaml-ios" {>= "4.08.0"}
+  "opam-installer" {build}
   "topkg" {build}
 ]
 build: ["ocaml" "pkg/pkg.ml" "build" "--toolchain" "ios"]

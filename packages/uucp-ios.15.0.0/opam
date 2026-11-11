@@ -19,6 +19,7 @@ doc: "https://erratique.ch/software/uucp/doc/"
 bug-reports: "https://github.com/dbuenzli/uucp/issues"
 depends: [
   "ocaml-ios" {>= "4.03.0"}
+  "opam-installer" {build}
   "ocamlfind" {build}
   "ocamlbuild" {build}
   "topkg" {build & >= "1.0.3"}

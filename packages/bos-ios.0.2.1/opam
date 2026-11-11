@@ -11,6 +11,7 @@ tags: ["os" "system" "cli" "command" "file" "path" "log" "unix"
        "org:erratique"]
 depends: [
   "ocaml-ios" {>= "4.08.0"}
+  "opam-installer" {build}
   "ocamlfind" {build}
   "ocamlbuild" {build}
   "topkg" {build & >= "1.0.3"}
